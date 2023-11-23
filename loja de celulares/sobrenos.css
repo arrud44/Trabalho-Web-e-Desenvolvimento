@@ -30,7 +30,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     z-index: 1;
-    background-color: (52, 152, 219, 0.7); /* Fundo transparente */
+    background-color: (52, 152, 219, 0.7); 
 }
 
 h2 {
