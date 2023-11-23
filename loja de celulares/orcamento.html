@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./orcamento.css">
+    <title>Orçamentos - Loja de Celulares</title>
+</head>
+<body>
+    <div class="header">
+        <a href="./orcamento.html">Orçamentos</a>
+        <a href="#loja">Loja</a>
+        <a href="./sobrenos.html">Sobre Nós</a>
+    </div>
+
+    <div class="background-orcamentos"></div>
+
+    <div class="container">
+        <h2>Solicitar Orçamento</h2>
+        <form id="orcamentoForm">
+            <label for="modelo">Modelo de Celular:</label>
+            <input type="text" id="modelo" name="modelo" required>
+            
+            <label for="contato">Contato:</label>
+            <input type="text" id="contato" name="contato" required>
+            
+            <label for="descricao">Descrição do Problema:</label>
+            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            
+            <button type="button" onclick="enviarOrcamento()">Enviar Orçamento</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Loja de Celulares</p>
+    </footer>
+
+
+</body>
+</html>
